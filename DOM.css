@@ -1,0 +1,161 @@
+h1,
+h2,
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #afafaf;
+}
+
+h1 {
+    padding-top: 7rem;
+}
+
+h3 {
+    background-color: #939393;
+    margin: auto;
+    width: 47%;
+    color: #212121;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+body {
+    height: 100vh;
+    background-color: #212121;
+}
+#formulario {
+    list-style: none;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 1rem;
+}
+
+#contactos {
+    margin: 0 auto;
+    width: 89%;
+}
+
+label {
+    display: inline-block;
+    width: 25%;
+    color: #afafaf;
+}
+
+input {
+    font: 1em sans-serif;
+    width: 59%;
+    background-color: #939393;
+}
+
+input:focus {
+    border-color: #7d7a7a;
+}
+
+li {
+    padding-top: 0.5rem;
+}
+
+.delete {
+    margin-top: 1%;
+}
+
+.datos-guardados {
+    height: 13%;
+    overflow: auto;
+    list-style: none;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 1rem;
+}
+
+table {
+    table-layout: fixed;
+    border-spacing:5px
+}
+.titulo-datosg{
+    padding-bottom: 1rem;
+}
+
+td {
+    height: 0.5rem;
+    border-bottom: 1px rgb(87, 87, 87);
+    color: aliceblue;
+}
+
+form {
+    padding-bottom: 1rem;
+}
+
+.btn-add {
+    cursor: pointer;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    color: #494848;
+}
+
+.btn-add:hover {
+    background-color: rgb(118, 132, 132);
+}
+
+.table-title {
+color: #afafaf;
+background-color: #212121;
+border-bottom: 1px rgb(87, 87, 87);
+font-size: 1rem;
+
+}
+
+
+.btn-x {
+    background: red;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+.btn-e {
+    background: rgb(92, 144, 143);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}  
+@media only screen and (min-width: 600px) {
+
+    h1 {
+        padding: 2rem;
+        font-size: 3rem;
+        margin: 0;
+
+    }
+    
+    h2 {
+        font-size: 2rem;
+        margin: 0;
+        padding-bottom: 0.5rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+        width: 20%;
+}
+
+    input {
+        width: 75%;
+        padding: 0.3rem;
+}
+
+    td {
+        width: 50%;
+        font-size: 1.2rem;
+}
+
+.datos-guardados {
+    padding: 0.5rem;
+}
+
+.table-title {
+    font-size: 1.2rem;
+}
+
+}
